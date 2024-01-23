@@ -40,6 +40,7 @@
           </p>
           <div id="container1_1_3">
             <div
+              id="downArrow"
               style="
                 background-size: 100%;
                 width: 320px;
@@ -79,6 +80,7 @@
       <div id="container1_3">
         <p style="margin: 0px">How to be a<br />great ancestor</p>
       </div>
+
       <div id="container2">
         <div id="container2_left">
           <img src="assets/container2 1.png" alt="" />
@@ -89,32 +91,132 @@
             </p>
           </div>
         </div>
-        <div id="container2_right"></div>
+        <div id="container2_right">
+          <img src="assets/container2 2.png" alt="" />
+          <div>
+            <p>
+              Promoting cultural and<br />environmental<br />heritage through<br />community
+              trade and<br />blockchain technology.
+            </p>
+          </div>
+        </div>
       </div>
+
+      <div id="container3">
+        <img id="bg_container_3" src="assets/bg container 3.png" alt="" />
+        <p id="container3_title">THE TRINITY</p>
+        <div id="content3">
+          <div id="content3_1">
+            <div>
+              <img id="content3_1_1a" src="assets/container 3 1a.png" alt="" />
+              <img
+                onmouseover="hoverConntent3(this);"
+                onmouseout="unhoverConntent3(this);"
+                id="content3_1_1b"
+                src="assets/container 3 1b.png"
+                alt=""
+              />
+              <h2>Mambo Heritage</h2>
+              <p>
+                Investigating interfaces and<br />interactions that support<br />local
+                economies and<br />cultural sustainability.
+              </p>
+            </div>
+          </div>
+          <div id="content3_2">
+            <div>
+              <img id="content3_2_1a" src="assets/container 3 2a.png" alt="" />
+              <img
+                onmouseover="hoverConntent3(this);"
+                onmouseout="unhoverConntent3(this);"
+                id="content3_2_1b"
+                src="assets/container 3 2b.png"
+                alt=""
+              />
+              <h2>DNA Lab</h2>
+              <p>
+                Advancing interfaces and<br />
+                interactions in social<br />
+                contexts by leveraging<br />
+                social relations as networks<br />
+                for peer to peer<br />
+                engagement by self<br />organizing, learning and<br />
+                gaining insight.
+              </p>
+            </div>
+          </div>
+          <div id="content3_3">
+            <div>
+              <img id="content3_3_1a" src="assets/container 3 3a.png" alt="" />
+              <img
+                onmouseover="hoverConntent3(this);"
+                onmouseout="unhoverConntent3(this);"
+                id="content3_3_1b"
+                src="assets/container 3 3b.png"
+                alt=""
+              />
+              <h2>Mambo Coins</h2>
+              <p>
+                Community currency<br />
+                incentive as a tool for<br />
+                the sustainable<br />
+                development of informal<br />
+                & rural settlements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="container4">
+        <div id="content4_1">
+          <div>
+            <p id="content4_1_head">WHO WE ARE</p>
+            <p id="content4_1_desc">
+              We exist between the nexus of settlement, cultural<br />
+              intelligence & innovation. Community ecological<br />
+              Stewards, Tour operators, and consumers to<br />
+              heritage stories and trade.
+            </p>
+          </div>
+        </div>
+        <div id="content4_2">
+          <div>
+            <p id="content4_2_head">WHO WE ARE</p>
+            <p id="content4_2_desc">
+              We exist between the nexus of settlement, cultural<br />
+              intelligence & innovation. Community ecological<br />
+              Stewards, Tour operators, and consumers to<br />
+              heritage stories and trade.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="container5"></div>
+      <div id="container6"></div>
+      <div id="container7"></div>
+      <div id="container8"></div>
     </div>
     <script>
-      //   $(document).ready(function () {
-      //     var images = [
-      //       "assets/Header Carousel V2 2.png",
-      //       "assets/Header Carousel V2 3.png",
-      //       "assets/Header Carousel V2 4.png",
-      //       "assets/Header Carousel V2 5.png",
-      //       "assets/Header Carousel V2 1.png",
-      //     ]; // Ganti dengan nama gambar yang sesuai
-      //     var currentIndex = 0;
+      $("#downArrow").on("click", function () {
+        var targetPosition = $("#container2").offset().top;
+        $("html, body").animate(
+          {
+            scrollTop: targetPosition,
+          },
+          1000
+        );
+      });
 
-      //     function changeImage() {
-      //       $(".slider-image").css("transform", "translateX(-100%)");
+      function hoverConntent3(obj) {
+        var target = $(obj).siblings("img");
+        $(target).css("right", "11px");
+      }
 
-      //       setTimeout(function () {
-      //         $(".slider-image").attr("src", images[currentIndex]);
-      //         $(".slider-image").css("transform", "translateX(0)");
-      //         currentIndex = (currentIndex + 1) % images.length;
-      //       }, 2000); // Ganti 1000 dengan interval dalam milidetik (1 detik)
-      //     }
-
-      //     setInterval(changeImage, 1000); // Ganti 2000 dengan interval antara setiap perubahan gambar (dalam milidetik)
-      //   });
+      function unhoverConntent3(obj) {
+        var target = $(obj).siblings("img");
+        $(target).css("right", "198px");
+      }
     </script>
   </body>
 </html>
