@@ -1,0 +1,453 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url(ClashDisplay-Regular.otf);
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url(Manrope-Regular.ttf);
+}
+
+body {
+  margin: 0;
+}
+#body {
+  background-image: url("assets/Horizontal\ Lines.png"),
+    url("assets/Vertical\ Lines.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 2025px;
+  height: 9318px;
+  margin: auto;
+  color: 492008;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+nav ul {
+  display: flex;
+  width: 751px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: -8px 10px 40px 0px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(7.5px);
+  margin: 59px 0;
+  text-decoration: none;
+  list-style-type: none;
+
+  color: #492008;
+  font-family: "Clash Grotesk";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#container1 {
+  width: 1620px;
+  margin: auto;
+  display: flex;
+}
+
+#container1_1 {
+}
+
+#mambo {
+  color: #492008;
+  font-family: "Bebas Neue";
+  font-size: 384px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* background: firebrick; */
+  width: 877px;
+  height: 269px;
+  display: flex;
+  align-items: center;
+  margin-left: -13px;
+  margin-top: 5px;
+}
+
+#container1_1_p1 {
+  color: #492008;
+  font-family: "Clash Grotesk";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 7.68px;
+  /* background: darkcyan; */
+  width: 325px;
+  margin: 0;
+}
+
+#container1_1_p2 {
+  color: #492008;
+  font-family: "Clash Grotesk";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 110% */
+  width: 850px;
+  margin-bottom: 0;
+}
+
+#container1_1_3 {
+  display: flex;
+  margin-top: 87px;
+  align-items: center;
+}
+
+#container1_1_3 p {
+  color: #492008;
+  font-family: "Clash Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  padding-top: 144px;
+  margin-left: 10px;
+}
+
+#container1_2 {
+  width: 901px;
+  height: 846px;
+  margin-top: -52px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  top: 34px;
+}
+
+#container1_2 img {
+  animation: slide 24s linear infinite;
+  margin: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+@keyframes slide {
+  12.50% {
+    transform: translateX(0);
+  }
+  16.66% {
+    transform: translateX(-100%);
+  }
+  29.16% {
+    transform: translateX(-100%);
+  }
+  33.33% {
+    transform: translateX(-200%);
+  }
+  45.83% {
+    transform: translateX(-200%);
+  }
+  49.99% {
+    transform: translateX(-300%);
+  }
+  62.5% {
+    transform: translateX(-300%);
+  }
+  66.66% {
+    transform: translateX(-400%);
+  }
+  79.16% {
+    transform: translateX(-400%);
+  }
+  83.33% {
+    transform: translateX(-500%);
+  }
+  100% {
+    transform: translateX(-500%);
+  }
+}
+#container1_2 div {
+  width: 320px;
+  height: 160px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 298px;
+  top: 688px;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+
+  vertical-align: middle;
+}
+
+#container1_2_image_name {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 53px;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: 44px;
+  /* padding: 41px; */
+}
+
+#container1_2_image_name p {
+  margin: 0;
+  margin-left: 40px;
+}
+
+#container1_2_image_name_1::before {
+  animation: nameImage1 infinite 24s;
+  content: "BALMOI ABE";
+}
+
+#container1_2_image_name_2::before {
+  content: "Founder";
+  animation: nameImage2 infinite 24s;
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+#container1_2_image_name_3 {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+@keyframes nameImage1 {
+  12.50% {
+    content: "BALMOI ABE";
+  }
+  16.66% {
+    content: "VERNACULAR";
+  }
+  29.16% {
+    content: "VERNACULAR";
+  }
+  33.33% {
+    content: "HISTORIC";
+  }
+  45.83% {
+    content: "HISTORIC";
+  }
+  49.99% {
+    content: "CIVIC";
+  }
+  62.5% {
+    content: "CIVIC";
+  }
+  66.66% {
+    content: "COMMUNITY";
+  }
+  79.16% {
+    content: "COMMUNITY";
+  }
+  83.33% {
+    content: "BALMOI ABE";
+  }
+  100% {
+    content: "BALMOI ABE";
+  }
+}
+
+@keyframes nameImage2 {
+  12.50% {
+    content: "Founder";
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 36px;
+  }
+  16.66% {
+    content: "ARCHITECTURE";
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 53px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 44px;
+    /* padding: 41px; */
+  }
+  29.16% {
+    content: "ARCHITECTURE";
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 53px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 44px;
+    /* padding: 41px; */
+  }
+  33.33% {
+    content: "RESTORATION";
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 53px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 44px;
+    /* padding: 41px; */
+  }
+  45.83% {
+    content: "RESTORATION";
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 53px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 44px;
+    /* padding: 41px; */
+  }
+  49.99% {
+    content: "RETROFITTING";
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 53px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 44px;
+    /* padding: 41px; */
+  }
+  62.5% {
+    content: "RETROFITTING";
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 53px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 44px;
+    /* padding: 41px; */
+  }
+  66.66% {
+    content: "SAFETY";
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 53px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 44px;
+    /* padding: 41px; */
+  }
+  79.16% {
+    content: "SAFETY";
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 53px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 44px;
+    /* padding: 41px; */
+  }
+  83.33% {
+    content: "Founder";
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 36px;
+  }
+  100% {
+    content: "Founder";
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 36px;
+  }
+}
+
+#container1_3 {
+  text-align: right;
+  font-family: "Bebas Neue";
+  font-size: 198px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160px;
+
+  background: linear-gradient(180deg, #dbd2ce 49%, #c9b3a9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  margin: 0;
+  height: 303px;
+  width: 1051px;
+  float: right;
+  bottom: 129px;
+  right: 22px;
+}
+
+#container1_1_3_img {
+  margin-bottom: 0px;
+  transition: margin-bottom 1s ease;
+}
+
+#container1_1_3_img:hover {
+  margin-bottom: 100px;
+}
+
+#container2 {
+  height: 1012px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  bottom: 133px;
+}
+
+#container2_left {
+  background: rgba(102, 51, 153, 0.411);
+  width: 50%;
+}
+
+#container2_left img {
+  margin: 0;
+  background: rgba(255, 105, 180, 0.342);
+  width: 640px;
+  height: 840px;
+  position: relative;
+  right: 20px;
+  bottom: 15px;
+  transition: right 1s, bottom 1s;
+}
+
+#container2_left img:hover {
+  right: 0px;
+  bottom: 35px;
+}
+
+#container2_left p {
+  display: inline-flex;
+  padding: 33px 51px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(7.5px);
+
+  position: absolute;
+}
+
+#container2_right {
+  background: rgba(250, 128, 114, 0.384);
+  width: 50%;
+}
