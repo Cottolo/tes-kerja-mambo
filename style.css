@@ -1138,3 +1138,198 @@ nav ul {
   left: -56px;
   top: -51px;
 }
+
+#container7 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+
+#container7_1 {
+  width: 41.67%;
+  height: 100%;
+}
+
+#container7_1_1 {
+  background: #8d380f;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 160px;
+  left: 320px;
+  transition: left 1s ease, bottom 1s ease;
+}
+
+#container7_1_1:hover {
+  left: 325px;
+  bottom: 5px;
+}
+
+#container7_1_1 svg {
+  width: 101.08px;
+  height: 101.08px;
+  flex-shrink: 0;
+}
+
+#container7_1_2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  left: 160px;
+}
+
+#container7_1_2div {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  background: #8d380f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: left 1s, bottom 1s;
+}
+
+#container7_1_2div:hover {
+  left: 5px;
+  bottom: 5px;
+}
+
+#container7_1_2 p {
+  color: #8d380f;
+  text-align: right;
+  font-family: "Bebas Neue";
+  font-size: 112px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 99px;
+  margin: 0;
+}
+#container7_1_3 {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  background: #8d380f;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 480px;
+  transition: left 1s, bottom 1s;
+}
+
+#container7_1_3:hover {
+  left: 485px;
+  bottom: 5px;
+}
+
+#container7_2 {
+  width: 58.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container7_2 img {
+  width: 1120px;
+  height: 887px;
+  position: relative;
+  right: 24px;
+  bottom: 20px;
+}
+
+#container8 {
+  width: 100%;
+  height: 1005px;
+}
+
+#container8 p {
+  color: #a691bb;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 256.913px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+#container8_wheel {
+  width: 1920px;
+  height: 860px;
+  position: relative;
+  text-align: center;
+  bottom: 189px;
+  overflow: hidden;
+}
+
+#container8_wheel img {
+  scale: 0.96;
+}
+
+#container8_wheel1 {
+  position: absolute;
+  left: -39px;
+  top: 0px;
+  animation-name: spinRight;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#container8_wheel2 {
+  position: absolute;
+  left: -39px;
+  top: 0px;
+  animation-name: spinLeft;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#container8_wheel3 {
+  position: absolute;
+  left: 114px;
+  top: 142px;
+  animation-name: spinRight;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#container8_wheel4 {
+  position: absolute;
+  left: 400px;
+  top: 416px;
+  animation-name: spinLeft;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#container8_wheel5 {
+  position: absolute;
+  left: 687px;
+  top: 693px;
+}
+
+@keyframes spinRight {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinLeft {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
