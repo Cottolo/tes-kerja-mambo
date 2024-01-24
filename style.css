@@ -933,7 +933,32 @@ nav ul {
 #content5_2_1_1_content {
   width: 100%;
   height: 100%;
-  transform: translateY(0%);
+}
+
+#content5_2_1_1_content_1 {
+  height: 33.33%;
+  overflow: hidden;
+}
+
+#content5_2_1_1_content_1 div {
+  transform: translateY(5%);
+  transition: transform 1s ease;
+}
+
+#content5_2_1_1_content_2 {
+  height: 33.33%;
+  overflow: hidden;
+}
+#content5_2_1_1_content_2 div {
+  transform: translateY(5%);
+  transition: transform 1s ease;
+}
+#content5_2_1_1_content_3 {
+  height: 33.33%;
+  overflow: hidden;
+}
+#content5_2_1_1_content_3 div {
+  transform: translateY(5%);
   transition: transform 1s ease;
 }
 
@@ -944,7 +969,7 @@ nav ul {
   font-style: normal;
   font-weight: 400;
   line-height: 68.397px;
-  margin-top: 2px;
+  margin-top: 5px;
 }
 
 #content5_2_2 {
