@@ -24,7 +24,14 @@
       <div id="container1">
         <div id="container1_1">
           <p class="" id="mambo">MAMBO</p>
-          <div style="display: flex; align-items: center">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              position: relative;
+              bottom: 21px;
+            "
+          >
             <p id="container1_1_p1">Ecosystem</p>
             <img
               style="width: 675px; height: 9px; margin-top: 22px"
@@ -371,7 +378,52 @@
           </div>
         </div>
       </div>
-      <div id="container6"></div>
+      <div id="container6">
+        <div id="container6_1">
+          <h5>CONCEPTS</h5>
+          <p>
+            Lorem ipsum dolor sit amet<br />
+            consectetur. Neque nulla<br />
+            malesuada quis<br />
+            lobortis mauris sed mattis nunc.
+          </p>
+        </div>
+        <div id="container6_2">
+          <p id="container6_2_1">Lamu<br />Virtual</p>
+          <p id="container6_2_2">Artists<br />Residency</p>
+          <p id="container6_2_3">Art Deco<br />Retrofit</p>
+        </div>
+        <div id="container6_3">
+          <div id="container6_3_1">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <img
+              onmouseover="container6Hover(this);"
+              onmouseout="container6Unover(this);"
+              src="assets/container 6 1.png"
+              alt=""
+            />
+          </div>
+          <div id="container6_3_2">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <img
+              onmouseover="container6Hover(this);"
+              onmouseout="container6Unover(this);"
+              src="assets/container 6 2.png"
+              alt=""
+            />
+          </div>
+          <div id="container6_3_3">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <img
+              onmouseover="container6Hover(this);"
+              onmouseout="container6Unover(this);"
+              src="assets/container 6 3.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="container6_4"></div>
+      </div>
       <div id="container7"></div>
       <div id="container8"></div>
     </div>
@@ -505,6 +557,32 @@
           default:
             break;
         }
+      }
+      function container6Hover(obj) {
+        let element = $(obj);
+        element.css({
+          transition: "top 1s ease",
+          "z-index": 1,
+          top: "-61px",
+        });
+        let paragraph = element.siblings("p");
+        paragraph.css({
+          right: "100px",
+        });
+        console.log(paragraph.css("right"));
+      }
+
+      function container6Unover(obj) {
+        let element = $(obj);
+        element.css({
+          transition: "top 1s ease",
+          "z-index": 0,
+          top: "-51px",
+        });
+        let paragraph = element.siblings("p");
+        paragraph.css({
+          right: "384px",
+        });
       }
     </script>
   </body>

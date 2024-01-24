@@ -984,3 +984,157 @@ nav ul {
   transform: translateY(0%);
   transition: transform 1s ease-in-out;
 }
+
+#container6 {
+  height: 1279px;
+  width: 100%;
+  position: relative;
+  margin-top: 160px;
+}
+
+#container6_1 {
+  position: absolute;
+  top: 0;
+  right: 43px;
+}
+
+#container6_1 h5 {
+  color: #a691bb;
+  text-align: right;
+  font-family: "Bebas Neue";
+  font-size: 229.091px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 202.5px; /* 88.393% */
+  letter-spacing: -0.229px;
+  margin: 0;
+}
+
+#container6_1 p {
+  color: #4d2477;
+  text-align: right;
+  font-family: "Clash Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  width: 680px;
+  margin: 0;
+  float: right;
+  margin-top: -20px;
+}
+
+#container6_2 {
+  width: 65.33%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+#container6_2 p {
+  color: #4d2477;
+  font-family: "Clash Grotesk";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px;
+  position: relative;
+}
+
+#container6_2_1 {
+  bottom: 29px;
+}
+#container6_2_2 {
+  margin-left: 366px;
+  top: 101px;
+}
+#container6_2_3 {
+  margin-left: 686px;
+  bottom: -224px;
+}
+
+#container6_3_1 {
+  width: 50%;
+  height: 640px;
+  position: absolute;
+  left: 104px;
+}
+#container6_3_1 p {
+  color: #4d2477;
+  font-family: "Clash Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  width: 308px;
+  position: absolute;
+  top: 140px;
+  right: 384px;
+  transition: right 1s ease;
+}
+
+#container6_3_1 img {
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  left: -56px;
+  top: -51px;
+}
+
+#container6_3_2 {
+  width: 50%;
+  height: 640px;
+  position: absolute;
+  left: 480px;
+  top: 320px;
+}
+#container6_3_2 p {
+  color: #4d2477;
+  font-family: "Clash Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  width: 308px;
+  position: absolute;
+  top: 140px;
+  right: 384px;
+  transition: right 1s ease;
+}
+
+#container6_3_2 img {
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  left: -56px;
+  top: -51px;
+}
+
+#container6_3_3 {
+  width: 50%;
+  height: 640px;
+  position: absolute;
+  left: 800px;
+  top: 640px;
+}
+#container6_3_3 p {
+  color: #4d2477;
+  font-family: "Clash Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  width: 308px;
+  position: absolute;
+  top: 140px;
+  right: 384px;
+  transition: right 1s ease;
+}
+
+#container6_3_3 img {
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  left: -56px;
+  top: -51px;
+}
