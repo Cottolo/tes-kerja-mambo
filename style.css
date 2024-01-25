@@ -161,7 +161,7 @@ nav ul {
 }
 
 #container1_2 {
-  width: 640pxpx;
+  width: 640px;
   height: 800px;
   margin-top: -52px;
   overflow: hidden;
@@ -1406,5 +1406,17 @@ nav ul {
   }
   to {
     transform: rotate(-360deg);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    zoom: 20%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    zoom: 16%;
   }
 }
