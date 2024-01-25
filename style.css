@@ -76,9 +76,6 @@ nav ul {
   display: flex;
 }
 
-#container1_1 {
-}
-
 #mambo {
   color: #492008;
   font-family: "Bebas Neue";
@@ -426,12 +423,15 @@ nav ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
-  margin: 0;
-  height: 303px;
+  height: 308px;
   width: 1051px;
   float: right;
-  bottom: 140px;
+  bottom: 146px;
   right: 22px;
+}
+
+#container1_3 p {
+  margin-top: 5px;
 }
 
 #container1_1_3_img {
@@ -448,7 +448,7 @@ nav ul {
   width: 100%;
   display: flex;
   position: relative;
-  bottom: 143px;
+  bottom: 148px;
 }
 
 #container2_left {
@@ -550,7 +550,7 @@ nav ul {
   height: 1120px;
   opacity: 100%;
   display: flex;
-  margin-top: -143px;
+  margin-top: -148px;
   position: relative;
   overflow: hidden;
 }
