@@ -16,20 +16,33 @@
 body {
   margin: 0;
 }
+
+#horizontal {
+  background-image: url("assets/Vertical\ Lines.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 83.33% 100%;
+  width: 1920px;
+  /* height: 9318px; */
+  margin: auto;
+  color: 492008;
+}
+
 #body {
-  background-image: url("assets/Horizontal\ Lines.png"),
-    url("assets/Vertical\ Lines.png");
+  background-image: url("assets/Horizontal\ Lines.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 1920px;
-  height: 9318px;
+  /* height: 9318px; */
   margin: auto;
   color: 492008;
+  overflow: hidden;
 }
 
 nav {
   display: flex;
   justify-content: end;
+  height: 160px;
 }
 
 nav ul {
@@ -42,6 +55,7 @@ nav ul {
   background: rgba(255, 255, 255, 0.8);
   box-shadow: -8px 10px 40px 0px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(7.5px);
+
   margin: 59px 0;
   text-decoration: none;
   list-style-type: none;
@@ -56,7 +70,8 @@ nav ul {
 }
 
 #container1 {
-  width: 1620px;
+  width: 1600px;
+  height: 960px;
   margin: auto;
   display: flex;
 }
@@ -73,12 +88,26 @@ nav ul {
   margin-top: 0;
   margin-bottom: 0;
   /* background: firebrick; */
-  width: 877px;
+  width: 960px;
   height: 269px;
   display: flex;
   align-items: center;
   margin-left: -13px;
-  margin-top: 5px;
+  margin-top: 18px;
+}
+
+#ecosystemDiv {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 11px;
+  width: 960px;
+}
+
+#ecosystemImg {
+  width: 640px;
+  height: 9px;
+  margin-top: 22px;
 }
 
 #container1_1_p1 {
@@ -90,7 +119,7 @@ nav ul {
   line-height: normal;
   letter-spacing: 7.68px;
   /* background: darkcyan; */
-  width: 325px;
+  width: 320px;
   margin: 0;
 }
 
@@ -107,8 +136,20 @@ nav ul {
 
 #container1_1_3 {
   display: flex;
-  margin-top: 87px;
+  margin-top: 38px;
   align-items: center;
+}
+
+#downArrow {
+  background-size: 100%;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 160px 0px 0px;
+  background: #492008;
+  box-shadow: -24px 20px 80px 0px rgba(0, 0, 0, 0.15);
 }
 
 #container1_1_3 p {
@@ -123,13 +164,14 @@ nav ul {
 }
 
 #container1_2 {
-  width: 901px;
-  height: 846px;
+  background: red;
+  width: 640pxpx;
+  height: 800px;
   margin-top: -52px;
   overflow: hidden;
   display: flex;
   position: relative;
-  top: 34px;
+  top: 51px;
 }
 
 #container1_2 img {
@@ -174,28 +216,25 @@ nav ul {
     transform: translateX(-500%);
   }
 }
-#container1_2 div {
-  width: 320px;
-  height: 160px;
-  flex-shrink: 0;
-  position: absolute;
-  right: 298px;
-  top: 688px;
-
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(6px);
-
-  vertical-align: middle;
-}
 
 #container1_2_image_name {
   color: #fff;
   font-family: "Bebas Neue";
   font-size: 53px;
   font-style: normal;
-  /* font-weight: 400; */
   line-height: 44px;
-  /* padding: 41px; */
+  width: 320px;
+  width: 320px;
+  height: 160px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+
+  vertical-align: middle;
 }
 
 #container1_2_image_name p {
@@ -377,7 +416,7 @@ nav ul {
 #container1_3 {
   text-align: right;
   font-family: "Bebas Neue";
-  font-size: 198px;
+  font-size: 204px;
   font-style: normal;
   font-weight: 400;
   line-height: 160px;
@@ -391,7 +430,7 @@ nav ul {
   height: 303px;
   width: 1051px;
   float: right;
-  bottom: 129px;
+  bottom: 140px;
   right: 22px;
 }
 
@@ -405,11 +444,11 @@ nav ul {
 }
 
 #container2 {
-  height: 1012px;
+  height: 960px;
   width: 100%;
   display: flex;
   position: relative;
-  bottom: 133px;
+  bottom: 143px;
 }
 
 #container2_left {
@@ -419,8 +458,8 @@ nav ul {
 
 #container2_left img {
   margin: 0;
-  width: 640px;
-  height: 840px;
+  width: 673px;
+  height: 913px;
   position: relative;
   right: 20px;
   bottom: 15px;
@@ -428,8 +467,8 @@ nav ul {
 }
 
 #container2_left img:hover {
-  right: 0px;
-  bottom: 35px;
+  right: 10px;
+  bottom: 25px;
 }
 
 #container2_left div {
@@ -465,17 +504,17 @@ nav ul {
 
 #container2_right img {
   margin: 0;
-  width: 640px;
-  height: 840px;
+  width: 775px;
+  height: 969px;
   position: relative;
-  left: 411px;
-  top: 264px;
+  left: 232px;
+  top: 98px;
   transition: left 1s, top 1s;
 }
 
 #container2_right img:hover {
-  left: 431px;
-  top: 244px;
+  left: 242px;
+  top: 88px;
 }
 
 #container2_right div {
@@ -485,14 +524,14 @@ nav ul {
   justify-content: center;
   align-items: flex-start;
   gap: 18px;
-  width: 552px;
+  width: 498px;
   height: 241px;
 
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(7.5px);
   position: absolute;
-  right: 474px;
-  bottom: 0px;
+  right: 495px;
+  bottom: 60px;
 }
 
 #container2_right p {
@@ -508,20 +547,20 @@ nav ul {
 #container3 {
   background-size: cover;
   width: 100%;
-  height: 1184px;
+  height: 1120px;
   opacity: 100%;
   display: flex;
-  margin-top: -135px;
+  margin-top: -143px;
   position: relative;
   overflow: hidden;
 }
 
 #bg_container_3 {
-  width: 524px;
-  height: 580px;
+  width: 534px;
+  height: 620px;
   position: absolute;
-  right: 0;
-  top: -35px;
+  right: -72px;
+  top: -76px;
 }
 
 #container3_title {
@@ -534,7 +573,7 @@ nav ul {
   width: 836px;
   height: 160px;
   position: absolute;
-  left: 904px;
+  left: 859px;
   top: -214px;
 }
 
@@ -563,7 +602,7 @@ nav ul {
   overflow: hidden;
   float: right;
   position: relative;
-  top: -153px;
+  top: 5px;
   /* background: yellow; */
 }
 
@@ -606,7 +645,7 @@ nav ul {
   float: right;
   position: relative;
   /* background: yellow; */
-  top: 18.7%;
+  top: 165px;
 }
 
 #content3_2 div h2 {
@@ -647,7 +686,7 @@ nav ul {
   overflow: hidden;
   float: right;
   position: relative;
-  top: 34.7%;
+  top: 325px;
 }
 
 #content3_3 div h2 {
@@ -683,12 +722,11 @@ nav ul {
   background-size: cover;
   width: 100%;
   height: 1120px;
-  margin-top: -23px;
   position: relative;
 }
 
 #content4_1 {
-  width: 50%;
+  max-width: 960px;
   display: flex;
   height: 319px;
   padding: 33px 51px;
@@ -990,7 +1028,7 @@ nav ul {
 }
 
 #content5_3 {
-  width: 640px;
+  width: 678px;
   height: 802px;
   overflow: hidden;
   position: absolute;
@@ -999,8 +1037,8 @@ nav ul {
 }
 
 #content5_3 img {
-  width: 100%;
-  height: 802px;
+  width: 677px;
+  height: 830px;
   scale: 1.13;
   margin: 0;
 }
@@ -1011,7 +1049,7 @@ nav ul {
 }
 
 #container6 {
-  height: 1279px;
+  height: 1280px;
   width: 100%;
   position: relative;
   margin-top: 160px;
@@ -1020,7 +1058,7 @@ nav ul {
 #container6_1 {
   position: absolute;
   top: 0;
-  right: 43px;
+  right: 11px;
 }
 
 #container6_1 h5 {
@@ -1053,7 +1091,7 @@ nav ul {
   width: 65.33%;
   height: 100%;
   position: absolute;
-  right: 0;
+  right: -160px;
 }
 
 #container6_2 p {
@@ -1070,12 +1108,19 @@ nav ul {
   bottom: 29px;
 }
 #container6_2_2 {
-  margin-left: 366px;
+  position: relative;
+  left: 315px;
   top: 101px;
 }
 #container6_2_3 {
-  margin-left: 686px;
+  margin-left: 630px;
   bottom: -224px;
+}
+
+#container6_3 {
+  position: relative;
+  left: 112px;
+  top: 55px;
 }
 
 #container6_3_1 {
@@ -1093,8 +1138,8 @@ nav ul {
   line-height: 41px;
   width: 308px;
   position: absolute;
-  top: 140px;
-  right: 384px;
+  top: 75px;
+  right: 0px;
   transition: right 1s ease;
 }
 
@@ -1104,6 +1149,7 @@ nav ul {
   height: 640px;
   left: -56px;
   top: -51px;
+  scale: 1.2;
 }
 
 #container6_3_2 {
@@ -1122,7 +1168,7 @@ nav ul {
   line-height: 41px;
   width: 308px;
   position: absolute;
-  top: 140px;
+  top: 75px;
   right: 384px;
   transition: right 1s ease;
 }
@@ -1131,8 +1177,9 @@ nav ul {
   position: absolute;
   width: 640px;
   height: 640px;
-  left: -56px;
+  left: -112px;
   top: -51px;
+  scale: 1.2;
 }
 
 #container6_3_3 {
@@ -1151,7 +1198,7 @@ nav ul {
   line-height: 41px;
   width: 308px;
   position: absolute;
-  top: 140px;
+  top: 75px;
   right: 384px;
   transition: right 1s ease;
 }
@@ -1160,8 +1207,9 @@ nav ul {
   position: absolute;
   width: 640px;
   height: 640px;
-  left: -56px;
+  left: -112px;
   top: -51px;
+  scale: 1.2;
 }
 
 #container7 {
@@ -1185,6 +1233,7 @@ nav ul {
   position: relative;
   margin-top: 160px;
   left: 320px;
+  bottom: 0px;
   transition: left 1s ease, bottom 1s ease;
 }
 
@@ -1217,6 +1266,8 @@ nav ul {
   align-items: center;
   position: relative;
   transition: left 1s, bottom 1s;
+  left: 0px;
+  bottom: 0px;
 }
 
 #container7_1_2div:hover {
@@ -1243,6 +1294,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   left: 480px;
+  bottom: 0px;
   transition: left 1s, bottom 1s;
 }
 
@@ -1259,10 +1311,10 @@ nav ul {
 }
 
 #container7_2 img {
-  width: 1120px;
+  width: 1150px;
   height: 887px;
   position: relative;
-  right: 24px;
+  right: 7px;
   bottom: 20px;
 }
 
