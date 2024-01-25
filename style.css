@@ -1409,14 +1409,26 @@ nav ul {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 360px) and (max-width: 389px) {
+  body {
+    zoom: 18.5%;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 411px) {
   body {
     zoom: 20%;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 428px) {
   body {
-    zoom: 16%;
+    zoom: 21%;
+  }
+}
+
+@media only screen and (min-width: 429px) and (max-width: 500px) {
+  body {
+    zoom: 22%;
   }
 }
