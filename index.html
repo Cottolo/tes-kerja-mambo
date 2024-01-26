@@ -575,6 +575,21 @@
       </div>
     </div>
     <script>
+      $(document).ready(function () {
+        var lebarBody = 1920;
+        var lebarLayar =
+          window.innerWidth ||
+          document.documentElement.clientWidth ||
+          document.body.clientWidth;
+        var zoomValue = (lebarLayar / lebarBody) * 100;
+        var zoomValuePercent = zoomValue + "%";
+        console.log("lebar Body :", lebarBody);
+        console.log("$(window).width() :", lebarLayar);
+        console.log("zoomValuePercent :", zoomValuePercent);
+        $("body").css("zoom", zoomValuePercent);
+        console.log("Body zoom added :", $("body").css("zoom"));
+      });
+
       $("#downArrow").on("click", function () {
         var targetPosition = $("#container2").offset().top;
         $("html, body").animate(
@@ -618,7 +633,6 @@
           default:
             break;
         }
-        console.log(type);
 
         switch (type) {
           case 1:
@@ -741,7 +755,7 @@
       function container6Hover(obj) {
         let element = $(obj);
         let parentId = element.parent().attr("id");
-        console.log("parent :", parentId);
+        // console.log("parent :", parentId);
         if (parentId == "container6_3_1") {
           element.css({
             transition: "top 1s ease",
@@ -775,7 +789,6 @@
             right: "-30px",
           });
         }
-        console.log(paragraph.css("right"));
       }
 
       function container6Unover(obj) {
@@ -818,7 +831,7 @@
       function hoverNaikKanan(obj) {
         let topImg = parseInt($(obj).css("top"));
         let rightImg = parseInt($(obj).css("right"));
-        console.log("top :" + topImg + ". right :" + rightImg);
+        // console.log("top :" + topImg + ". right :" + rightImg);
         $(obj).css({
           transition: "top 1s ease, right 1s ease",
           top: "-28px",
@@ -828,7 +841,7 @@
       function unhoverNaikKanan(obj) {
         let topImg = parseInt($(obj).css("top"));
         let rightImg = parseInt($(obj).css("right"));
-        console.log("top :" + topImg + ". right :" + rightImg);
+        // console.log("top :" + topImg + ". right :" + rightImg);
         $(obj).css({
           top: "-18px",
           right: "7px",
