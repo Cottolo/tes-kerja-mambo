@@ -15,6 +15,9 @@
 
 body {
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #horizontal {
@@ -26,6 +29,8 @@ body {
   height: 100%;
   margin: auto;
   color: 492008;
+  display: flex;
+  align-items: center;
 }
 
 #body {
@@ -1463,5 +1468,11 @@ nav ul {
 @media only screen and (min-width: 429px) and (max-width: 500px) {
   body {
     zoom: 22%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  body {
+    overflow-x: hidden;
   }
 }
