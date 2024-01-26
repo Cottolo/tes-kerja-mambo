@@ -14,12 +14,7 @@
 }
 
 body {
-  margin: 0 auto;
-  width: 100%;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #horizontal {
@@ -28,7 +23,7 @@ body {
   background-position: center;
   background-size: 83.33% 100%;
   width: 1920px;
-  /* height: 9318px; */
+  height: 100%;
   margin: auto;
   color: 492008;
 }
@@ -1114,11 +1109,11 @@ nav ul {
 #container6_2_2 {
   position: relative;
   left: 315px;
-  top: 101px;
+  top: 136px;
 }
 #container6_2_3 {
   margin-left: 630px;
-  bottom: -224px;
+  bottom: -332px;
 }
 
 #container6_3 {
@@ -1128,22 +1123,24 @@ nav ul {
 }
 
 #container6_3_1 {
-  width: 50%;
+  width: 100%;
   height: 640px;
   position: absolute;
-  left: 104px;
+  left: 50px;
+  overflow-x: clip;
+  top: -53px;
 }
 #container6_3_1 p {
   color: #4d2477;
   font-family: "Clash Grotesk";
-  font-size: 40px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 41px;
-  width: 308px;
+  width: 780px;
   position: absolute;
   top: 75px;
-  right: 500px;
+  right: 1280px;
   transition: right 1s ease;
 }
 
@@ -1151,8 +1148,8 @@ nav ul {
   position: absolute;
   width: 640px;
   height: 640px;
-  left: -56px;
-  top: -51px;
+  left: -4px;
+  top: 0px;
   scale: 1.2;
 }
 
@@ -1166,13 +1163,13 @@ nav ul {
 #container6_3_2 p {
   color: #4d2477;
   font-family: "Clash Grotesk";
-  font-size: 40px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 41px;
-  width: 308px;
+  width: 780px;
   position: absolute;
-  top: 75px;
+  top: 15px;
   right: 500px;
   transition: right 1s ease;
 }
@@ -1196,13 +1193,13 @@ nav ul {
 #container6_3_3 p {
   color: #4d2477;
   font-family: "Clash Grotesk";
-  font-size: 40px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 41px;
-  width: 308px;
+  width: 480px;
   position: absolute;
-  top: 75px;
+  top: 15px;
   right: 500px;
   transition: right 1s ease;
 }
@@ -1320,6 +1317,7 @@ nav ul {
   position: relative;
   right: 7px;
   bottom: 20px;
+  top: -18px;
 }
 
 #container8 {
@@ -1355,7 +1353,7 @@ nav ul {
   left: -39px;
   top: 0px;
   animation-name: spinRight;
-  animation-duration: 20s;
+  animation-duration: 45s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -1365,7 +1363,7 @@ nav ul {
   left: -39px;
   top: 0px;
   animation-name: spinLeft;
-  animation-duration: 20s;
+  animation-duration: 45s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -1375,7 +1373,7 @@ nav ul {
   left: 114px;
   top: 142px;
   animation-name: spinRight;
-  animation-duration: 20s;
+  animation-duration: 45s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -1385,7 +1383,7 @@ nav ul {
   left: 400px;
   top: 416px;
   animation-name: spinLeft;
-  animation-duration: 20s;
+  animation-duration: 45s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -1435,11 +1433,5 @@ nav ul {
 @media only screen and (min-width: 429px) and (max-width: 500px) {
   body {
     zoom: 22%;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  body {
-    overflow-x: hidden;
   }
 }

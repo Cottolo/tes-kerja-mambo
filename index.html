@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mambo Ecosystem</title>
+    <link rel="icon" href="assets/mamfav.png" type="image/x-icon" />
+    <title>Mambo Heritage</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link
@@ -32,7 +33,7 @@
             <p id="container1_1_p2">
               Bridging heritage, innovation, and impact, we<br />exist between
               the nexus of settlement, cultural<br />intelligence &
-              innovation.<br />Community ecological Stewards, Tour operators,<br />and
+              innovation.<br />Community ecological stewards, tour operators,<br />and
               consumers to heritage stories and trade.
             </p>
             <div id="container1_1_3">
@@ -130,8 +131,10 @@
                 />
                 <h2>Mambo Heritage</h2>
                 <p>
-                  Investigating interfaces and<br />interactions that support<br />local
-                  economies and<br />cultural sustainability.
+                  Investigating interfaces &amp;<br />
+                  interactions that support<br />
+                  local economies and<br />
+                  cultural sustainability.
                 </p>
               </div>
             </div>
@@ -151,12 +154,14 @@
                 />
                 <h2>DNA Lab</h2>
                 <p>
-                  Advancing interfaces and<br />
-                  interactions in social<br />
-                  contexts by leveraging<br />
-                  social relations as networks<br />
-                  for peer to peer<br />
-                  engagement by self<br />organizing, learning and<br />
+                  Digital Narrative Archive<br />
+                  (DNA) Lab - advancing<br />
+                  interfaces and interactions<br />
+                  in social contexts by<br />
+                  leveraging social relations<br />
+                  as networks for peer to<br />
+                  peer engagement by self<br />
+                  organizing, learning and <br />
                   gaining insight.
                 </p>
               </div>
@@ -175,7 +180,7 @@
                   src="assets/container 3 3b.png"
                   alt=""
                 />
-                <h2>Mambo Coins</h2>
+                <h2>Mambo Coin</h2>
                 <p>
                   Community currency<br />
                   incentive as a tool for<br />
@@ -195,7 +200,7 @@
               <p id="content4_1_desc">
                 We exist between the nexus of settlement, cultural<br />
                 intelligence & innovation. Community ecological<br />
-                Stewards, Tour operators, and consumers to<br />
+                stewards, tour operators, and consumers to<br />
                 heritage stories and trade.
               </p>
             </div>
@@ -326,8 +331,8 @@
                     Safe Hands Kenya
                   </p>
                   <p>
-                    Drawing Dreams Initiative, Studio<br />
-                    Verde & Nashulai Art Residency
+                    Drawing Dreams Initiative<br />
+                    &num;ROADTRIP4ACAUSE
                   </p>
                   <p>
                     McMillan Library Restoration<br />
@@ -350,15 +355,13 @@
                     personal protection via a three-pronged approach.
                   </p>
                   <p>
-                    Our hashtag#roadtrip4acause was curated around learning,<br />
-                    interaction, and travel. The 4-day journey of engagement<br />
-                    workshops drew great insights that begin to not only
-                    address<br />
-                    the urgent need around the climate justice, but also the
-                    inclusive<br />
-                    nature of how cultural innovation and creativity can bridge
-                    the<br />
-                    equity narrative to develop indigenous prosperity models.
+                    The impacts of inadequate MHM management have seen a rise<br />
+                    in adolescent transacational sex leading to unintended<br />
+                    pregnancies (15% of women age 15-19 have experienced
+                    pregnancy.<br />
+                    12% have had a live birth, 1% have had a pregnancy loss, and
+                    3%<br />
+                    are currently pregnant. KDHS, Kenya 2022)<br />
                   </p>
                   <p>
                     Working alongside our client, Book bunk, we are working
@@ -421,23 +424,27 @@
           </div>
         </div>
         <div id="container6">
-          <div id="container6_1">
+          <!-- <div id="container6_1">
             <h5>CONCEPTS</h5>
             <p>
-              Lorem ipsum dolor sit amet<br />
-              consectetur. Neque nulla<br />
-              malesuada quis<br />
-              lobortis mauris sed mattis nunc.
+              Our exploration of dynamic environments designed to<br />
+              foster creativity and collaboration, where individuals engage<br />
+              in interactive exploration of novel concepts and interfaces<br />
             </p>
-          </div>
+          </div> -->
           <div id="container6_2">
-            <p id="container6_2_1">Lamu<br />Virtual</p>
-            <p id="container6_2_2">Artists<br />Residency</p>
-            <p id="container6_2_3">Art Deco<br />Retrofit</p>
+            <p id="container6_2_1">Lamu Virtual</p>
+            <p id="container6_2_2">Artists Residency</p>
+            <p id="container6_2_3">Art Deco Retrofit</p>
           </div>
           <div id="container6_3">
             <div id="container6_3_1">
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Making heritage mor exciting and accessible to <br />
+                younger generations, by collecting virtual heritage <br />
+                artifacts and competing in exploring historic stories <br />
+                and learning new meaningful things along the way.
+              </p>
               <img
                 onmouseover="container6Hover(this);"
                 onmouseout="container6Unover(this);"
@@ -446,7 +453,13 @@
               />
             </div>
             <div id="container6_3_2">
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                The project, transitioning from "Netil Apa" to<br />
+                "Netil Tata," aims to preserve Maasal heritage <br />
+                through intergenerational exchange and a <br />
+                sustainable building, inspiring future <br />
+                generations
+              </p>
               <img
                 onmouseover="container6Hover(this);"
                 onmouseout="container6Unover(this);"
@@ -712,19 +725,31 @@
         let element = $(obj);
         let parentId = element.parent().attr("id");
         console.log("parent :", parentId);
-        element.css({
-          transition: "top 1s ease",
-          "z-index": 1,
-          top: "-61px",
-        });
+        if (parentId == "container6_3_1") {
+          element.css({
+            transition: "top 1s ease",
+            "z-index": 1,
+            top: "-10px",
+          });
+        } else {
+          element.css({
+            transition: "top 1s ease",
+            "z-index": 1,
+            top: "-61px",
+          });
+        }
         let paragraph = element.siblings("p");
         if (parentId == "container6_3_1") {
           paragraph.css({
-            right: "42px",
+            right: "473px",
           });
-        } else {
+        } else if (parentId == "container6_3_2") {
           paragraph.css({
-            right: "100px",
+            right: "-368px",
+          });
+        } else if (parentId == "container6_3_3") {
+          paragraph.css({
+            right: "-64px",
           });
         }
         console.log(paragraph.css("right"));
@@ -732,34 +757,48 @@
 
       function container6Unover(obj) {
         let element = $(obj);
-        element.css({
-          transition: "top 1s ease",
-          "z-index": 0,
-          top: "-51px",
-        });
-        let paragraph = element.siblings("p");
-        paragraph.css({
-          right: "500px",
-        });
+        let parentId = element.parent().attr("id");
+        if (parentId == "container6_3_1") {
+          element.css({
+            transition: "top 1s ease",
+            "z-index": 1,
+            top: "0px",
+          });
+
+          let paragraph = element.siblings("p");
+          paragraph.css({
+            right: "1280px",
+          });
+        } else {
+          element.css({
+            transition: "top 1s ease",
+            "z-index": 0,
+            top: "-51px",
+          });
+          let paragraph = element.siblings("p");
+          paragraph.css({
+            right: "500px",
+          });
+        }
       }
 
       function hoverNaikKanan(obj) {
-        let top = parseInt($(obj).css("top"));
-        let right = parseInt($(obj).css("right"));
-        console.log("top :" + top + ". right :" + right);
+        let topImg = parseInt($(obj).css("top"));
+        let rightImg = parseInt($(obj).css("right"));
+        console.log("top :" + topImg + ". right :" + rightImg);
         $(obj).css({
           transition: "top 1s ease, right 1s ease",
-          top: top - 10 + "px",
-          right: right - 10 + "px",
+          top: "-28px",
+          right: "-3px",
         });
       }
       function unhoverNaikKanan(obj) {
-        let top = parseInt($(obj).css("top"));
-        let right = parseInt($(obj).css("right"));
-        console.log("top :" + top + ". right :" + right);
+        let topImg = parseInt($(obj).css("top"));
+        let rightImg = parseInt($(obj).css("right"));
+        console.log("top :" + topImg + ". right :" + rightImg);
         $(obj).css({
-          top: top + 10 + "px",
-          right: right + 10 + "px",
+          top: "-18px",
+          right: "7px",
         });
       }
     </script>
