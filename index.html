@@ -589,10 +589,11 @@
     <script>
       $(document).ready(function () {
         var lebarBody = 1920;
-        var lebarLayar =
-          window.innerWidth ||
-          document.documentElement.clientWidth ||
-          document.body.clientWidth;
+        var lebarLayar = $(window).width();
+        // var lebarLayar =
+        //   window.innerWidth ||
+        //   document.documentElement.clientWidth ||
+        //   document.body.clientWidth;
 
         console.log("window.innerWidth :", window.innerWidth);
         console.log(
