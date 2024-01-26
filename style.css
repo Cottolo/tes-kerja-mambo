@@ -14,7 +14,12 @@
 }
 
 body {
+  margin: 0 auto;
+  width: 100%;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #horizontal {
@@ -1430,5 +1435,11 @@ nav ul {
 @media only screen and (min-width: 429px) and (max-width: 500px) {
   body {
     zoom: 22%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  body {
+    overflow-x: hidden;
   }
 }
