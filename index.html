@@ -593,13 +593,7 @@
           window.innerWidth ||
           document.documentElement.clientWidth ||
           document.body.clientWidth;
-        $("#deviceWidth").text(
-          "lebar layar :" +
-            lebarLayar +
-            "\n" +
-            "Body zoom added :" +
-            $("body").css("zoom")
-        );
+
         console.log("window.innerWidth :", window.innerWidth);
         console.log(
           "document.documentElement.clientWidth :",
@@ -613,6 +607,13 @@
         console.log("zoomValuePercent :", zoomValuePercent);
         $("body").css("zoom", zoomValuePercent);
         console.log("Body zoom added :", $("body").css("zoom"));
+        $("#deviceWidth").text(
+          "lebar layar :" +
+            lebarLayar +
+            "\n" +
+            "Body zoom added :" +
+            $("body").css("zoom")
+        );
       });
 
       $("#downArrow").on("click", function () {
