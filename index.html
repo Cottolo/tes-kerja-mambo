@@ -386,21 +386,23 @@
                   <div id="content5_2_1_1_content_1">
                     <div id="content5_2_1_1_content_1_scroll">
                       <p>2.5m<br />reached</p>
-                      <p>9<br />artists</p>
+                      <p>Strengthen<br />partnership</p>
                       <p>library<br />renovation</p>
                     </div>
                   </div>
                   <div id="content5_2_1_1_content_2">
                     <div id="content5_2_1_1_content_2_scroll">
                       <p>700k<br />households</p>
-                      <p>5000<br />acres</p>
+                      <p>EXPERIENCE<br />SHARING</p>
                       <p>open to<br />public</p>
                     </div>
                   </div>
                   <div id="content5_2_1_1_content_3">
                     <div id="content5_2_1_1_content_3_scroll">
                       <p>150k<br />given work</p>
-                      <p>coexistence<br />framework</p>
+                      <p style="font-size: 75px">
+                        awareness on<br />challenging
+                      </p>
                       <p>experience<br />design</p>
                     </div>
                   </div>
@@ -435,7 +437,10 @@
           <div id="container6_2">
             <p id="container6_2_1">Lamu Virtual</p>
             <p id="container6_2_2">Artists Residency</p>
-            <p id="container6_2_3">Art Deco Retrofit</p>
+            <p id="container6_2_3">
+              Art Deco <br />
+              Retrofit
+            </p>
           </div>
           <div id="container6_3">
             <div id="container6_3_1">
@@ -468,7 +473,11 @@
               />
             </div>
             <div id="container6_3_3">
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                The proposed building in Machakos, Kenya, is historically
+                significant, showcasing 1920s Art Deco styles with elegant
+                geometric shapes and bold colors.
+              </p>
               <img
                 onmouseover="container6Hover(this);"
                 onmouseout="container6Unover(this);"
@@ -731,7 +740,13 @@
             "z-index": 1,
             top: "-10px",
           });
-        } else {
+        } else if (parentId == "container6_3_2") {
+          element.css({
+            transition: "top 1s ease",
+            "z-index": 1,
+            top: "-5px",
+          });
+        } else if (parentId == "container6_3_3") {
           element.css({
             transition: "top 1s ease",
             "z-index": 1,
@@ -741,15 +756,15 @@
         let paragraph = element.siblings("p");
         if (parentId == "container6_3_1") {
           paragraph.css({
-            right: "473px",
+            right: "450px",
           });
         } else if (parentId == "container6_3_2") {
           paragraph.css({
-            right: "-368px",
+            right: "550px",
           });
         } else if (parentId == "container6_3_3") {
           paragraph.css({
-            right: "-64px",
+            right: "-30px",
           });
         }
         console.log(paragraph.css("right"));
@@ -761,7 +776,7 @@
         if (parentId == "container6_3_1") {
           element.css({
             transition: "top 1s ease",
-            "z-index": 1,
+            "z-index": 0,
             top: "0px",
           });
 
@@ -769,7 +784,17 @@
           paragraph.css({
             right: "1280px",
           });
-        } else {
+        } else if (parentId == "container6_3_2") {
+          element.css({
+            transition: "top 1s ease",
+            "z-index": 0,
+            top: "5px",
+          });
+          let paragraph = element.siblings("p");
+          paragraph.css({
+            right: "1300px",
+          });
+        } else if (parentId == "container6_3_3") {
           element.css({
             transition: "top 1s ease",
             "z-index": 0,
