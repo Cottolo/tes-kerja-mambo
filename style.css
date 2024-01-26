@@ -1488,7 +1488,7 @@ nav ul {
   }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 389px) {
+/* @media only screen and (min-width: 360px) and (max-width: 389px) {
   body {
     zoom: 18.5%;
   }
@@ -1516,7 +1516,7 @@ nav ul {
   body {
     zoom: 0.975;
   }
-}
+} */
 
 @media only screen and (min-width: 1920px) {
   body {
