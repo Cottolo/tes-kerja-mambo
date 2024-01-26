@@ -1450,14 +1450,14 @@ nav ul {
 
 #concepts2 {
   margin: 0;
-  width: 1135px;
+  width: 50%;
   height: 150px;
   flex-shrink: 0;
   color: #4d2477;
 
   text-align: right;
   font-family: "Clash Grotesk";
-  font-size: 40px;
+  font-size: 33px;
   font-style: normal;
   font-weight: 400;
   line-height: 41px;
