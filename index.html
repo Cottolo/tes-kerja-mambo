@@ -574,7 +574,18 @@
         </div>
       </div>
     </div>
-
+    <h2
+      style="
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        background: red;
+        text-align: center;
+        font-size: 2vw;
+      "
+      id="deviceWidth"
+    ></h2>
     <script>
       $(document).ready(function () {
         var lebarBody = 1920;
@@ -582,9 +593,13 @@
           window.innerWidth ||
           document.documentElement.clientWidth ||
           document.body.clientWidth;
-        $("#deviceWidth").text(`lebar layar : ${lebarLayar}\n
-        Body zoom added : ${$("body").css("zoom")}
-        `);
+        $("#deviceWidth").text(
+          "lebar layar :" +
+            lebarLayar +
+            "\n" +
+            "Body zoom added :" +
+            $("body").css("zoom")
+        );
         console.log("window.innerWidth :", window.innerWidth);
         console.log(
           "document.documentElement.clientWidth :",
