@@ -1382,7 +1382,7 @@ nav ul {
   position: relative;
   text-align: center;
   bottom: 189px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #container8_wheel img {
