@@ -574,47 +574,24 @@
         </div>
       </div>
     </div>
-    <h2
-      style="
-        width: 100%;
-        height: auto;
-        position: fixed;
-        top: 0;
-        background: red;
-        text-align: center;
-        font-size: 2vw;
-      "
-      id="deviceWidth"
-    ></h2>
+
     <script>
       $(document).ready(function () {
         var lebarBody = 1920;
         var lebarLayar = $(window).width();
-        // var lebarLayar =
-        //   window.innerWidth ||
-        //   document.documentElement.clientWidth ||
-        //   document.body.clientWidth;
-
-        console.log("window.innerWidth :", window.innerWidth);
-        console.log(
-          "document.documentElement.clientWidth :",
-          document.documentElement.clientWidth
-        );
-        console.log("document.body.clientWidth :", document.body.clientWidth);
+        // console.log("window.innerWidth :", window.innerWidth);
+        // console.log(
+        //   "document.documentElement.clientWidth :",
+        //   document.documentElement.clientWidth
+        // );
+        // console.log("document.body.clientWidth :", document.body.clientWidth);
         var zoomValue = (lebarLayar / lebarBody) * 100;
         var zoomValuePercent = zoomValue + "%";
-        console.log("lebar Body :", lebarBody);
-        console.log("$(window).width() :", lebarLayar);
-        console.log("zoomValuePercent :", zoomValuePercent);
+        // console.log("lebar Body :", lebarBody);
+        // console.log("$(window).width() :", lebarLayar);
+        // console.log("zoomValuePercent :", zoomValuePercent);
         $("body").css("zoom", zoomValuePercent);
-        console.log("Body zoom added :", $("body").css("zoom"));
-        $("#deviceWidth").text(
-          "lebar layar :" +
-            lebarLayar +
-            "\n" +
-            "Body zoom added :" +
-            $("body").css("zoom")
-        );
+        // console.log("Body zoom added :", $("body").css("zoom"));
       });
 
       $("#downArrow").on("click", function () {
