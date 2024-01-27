@@ -556,7 +556,7 @@ nav ul {
 #container3 {
   background-size: cover;
   width: 100%;
-  height: 1120px;
+  height: auto;
   opacity: 100%;
   display: flex;
   margin-top: -148px;
@@ -588,7 +588,7 @@ nav ul {
 
 #content3 {
   width: 100%;
-  height: 1027px;
+  height: 965px;
   position: relative;
   margin-top: 155px;
   display: flex;
@@ -627,7 +627,7 @@ nav ul {
 #content3_1 div p {
   color: #492008;
   font-family: "Clash Grotesk";
-  font-size: 38px;
+  font-size: 37px;
   font-style: normal;
   font-weight: 400;
   line-height: 41px;
@@ -669,7 +669,7 @@ nav ul {
 #content3_2 div p {
   color: #492008;
   font-family: "Clash Grotesk";
-  font-size: 38px;
+  font-size: 37px;
   font-style: normal;
   font-weight: 400;
   line-height: 41px;
@@ -710,7 +710,7 @@ nav ul {
 #content3_3 div p {
   color: #492008;
   font-family: "Clash Grotesk";
-  font-size: 38px;
+  font-size: 37px;
   font-style: normal;
   font-weight: 400;
   line-height: 41px;
@@ -1140,7 +1140,19 @@ nav ul {
   overflow-x: clip;
   top: -53px;
 }
-#container6_3_1 p {
+
+#container6_3_1 div {
+  width: 1120px;
+  height: 340px;
+  display: flex;
+  align-self: center;
+  position: relative;
+  left: 625px;
+  top: 67px;
+  overflow: hidden;
+}
+
+#container6_3_1p {
   display: inline-flex;
   padding: 24px 33px;
   justify-content: center;
@@ -1157,10 +1169,10 @@ nav ul {
   font-weight: 400;
   line-height: 41px;
   width: 780px;
+  height: 144px;
   position: absolute;
-  top: 66px;
-  right: 450px;
-  /* right: 1280px; */
+  /* top: 66px; */
+  right: 1280px;
   transition: right 1s ease;
 }
 
@@ -1178,9 +1190,20 @@ nav ul {
   position: absolute;
   left: 370px;
   top: 266px;
-  overflow-x: clip;
+  /* overflow-x: clip; */
 }
-#container6_3_2 p {
+
+#container6_3_2 div {
+  width: 800px;
+  height: 430px;
+  display: flex;
+  position: relative;
+  left: 607px;
+  top: 46px;
+  overflow: hidden;
+}
+
+#container6_3_2p {
   display: inline-flex;
   padding: 24px 33px;
   justify-content: center;
@@ -1198,12 +1221,10 @@ nav ul {
   font-weight: 400;
   line-height: 41px;
   width: 703px;
+  height: 192px;
   position: absolute;
-  top: 38px;
-  right: 550px;
-  /* right: 1300px; */
+  right: 1300px;
   transition: right 1s ease;
-  z-index: -1;
 }
 
 #container6_3_2 img {
@@ -1221,7 +1242,18 @@ nav ul {
   left: 800px;
   top: 640px;
 }
-#container6_3_3 p {
+
+#container6_3_3 div {
+  width: 540px;
+  position: relative;
+  left: 516px;
+  height: 527px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#container6_3_3p {
   display: inline-flex;
   padding: 24px 33px;
   justify-content: center;
@@ -1239,9 +1271,7 @@ nav ul {
   line-height: 41px;
   width: 400px;
   position: absolute;
-  top: 64px;
-  right: -30px;
-  /* right: 500px; */
+  right: 600px;
   transition: right 1s ease;
 }
 
